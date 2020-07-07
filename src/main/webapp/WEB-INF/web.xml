@@ -1,0 +1,60 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ 
+  <servlet>
+  	<servlet-name>LoginCTL</servlet-name>
+  	<display-name>LoginCTL</display-name>
+  	<description></description>
+  	<servlet-class>controller.LoginCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OrderCTL</servlet-name>
+  	<display-name>OrderCTL</display-name>
+  	<description></description>
+  	<servlet-class>controller.OrderCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrationCTL</servlet-name>
+  	<display-name>RegistrationCTL</display-name>
+  	<description></description>
+  	<servlet-class>bean.RegistrationCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserListCTL</servlet-name>
+  	<display-name>UserListCTL</display-name>
+  	<description></description>
+  	<servlet-class>controller.UserListCTL</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserListCtl</servlet-name>
+  	<display-name>UserListCtl</display-name>
+  	<description></description>
+  	<servlet-class>controller.UserListCtl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginCTL</servlet-name>
+  	<url-pattern>/LoginCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OrderCTL</servlet-name>
+  	<url-pattern>/OrderCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrationCTL</servlet-name>
+  	<url-pattern>/RegistrationCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserListCTL</servlet-name>
+  	<url-pattern>/UserListCTL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserListCtl</servlet-name>
+  	<url-pattern>/UserListCtl</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
