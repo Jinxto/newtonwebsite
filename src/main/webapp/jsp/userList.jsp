@@ -46,7 +46,6 @@ document.onkeydown = function(e) {
 	  }
 }
 </script>
-
 <h1>5 Newton Orders</h1>
 <table class="table table-striped">
 <thead>
